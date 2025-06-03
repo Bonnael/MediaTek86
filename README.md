@@ -1,16 +1,53 @@
-## Très bref aperçu de la consigne (en attendant le readme) :
+# Application MediaTek86 – Gestion du personnel des médiathèques
 
-### Contexte
-Afin de développer votre projet dans un contexte réaliste d’entreprise, nous vous proposons le contexte MediaTek86, un réseau qui gère les médiathèques de la Vienne, et qui a pour rôle de fédérer les prêts de livres, DVD et CD et de développer la médiathèque numérique pour l’ensemble des médiathèques du département.
+## 🎯 Présentation du projet
 
-Vous travaillez en tant que technicien développeur junior pour l’ESN InfoTech Services 86 qui vient de remporter le marché pour différentes interventions au sein du réseau MediaTek86, dont certaines dans le domaine du développement d'application.
+Dans le cadre de ma formation en développement logiciel, j'ai réalisé une application de bureau pour la gestion des ressources humaines du réseau **MediaTek86**, qui fédère les médiathèques du département de la Vienne.  
 
-Il vous a été confié le développement de l'application de bureau qui va permettre de gérer le personnel de chaque médiathèque, leur affectation à un service et leurs absences.
+Cette application est conçue pour être installée sur un **poste administratif** et s’intègre dans un écosystème logiciel plus large inspiré de l’application [Habilitations](https://github.com/Bonnael/habilitations2024), en reprenant la même structure technique (organisation des packages, classe `BddManager`, logique de fonctionnement, etc.).
 
-Cette application est monoposte et sera installée sur un poste du service administratif.
+---
 
-L'application, que vous allez créer dans cet atelier, doit être de même type (Windows Forms .NET Framework) de même langage (C#), de même structure (organisation des packages), avec la même classe de connexion à a BDD (BddManager) et plus globalement suivant la même logique que l'application Habilitations. 
-(https://github.com/Bonnael/habilitations2024)
+## 🧩 Contexte professionnel simulé
 
+Vous êtes recruté en tant que **développeur junior** par l’ESN **InfoTech Services 86**, récemment sélectionnée pour assurer plusieurs prestations pour le réseau MediaTek86, notamment dans le domaine du développement applicatif.
 
+L’objectif qui m’a été confié dans ce contexte professionnel simulé est de **développer une application de bureau** permettant de centraliser les données RH des médiathèques, afin d’améliorer leur gestion au quotidien.
+
+---
+
+## 🖥️ Technologies utilisées
+
+- C# (.NET Framework)
+- WinForms
+- MySQL
+- phpMyAdmin
+
+---
+
+## ⚙️ Comment utiliser l’application ?
+
+1. **Télécharger le projet**  
+   - Clonez ce dépôt ou téléchargez le ZIP, puis ouvrez-le dans **Visual Studio**.
+
+2. **Créer la base de données**
+   - Accédez à [phpMyAdmin](http://localhost/phpmyadmin/index.php)  
+   - Créez une base nommée `mediatek86`  
+   - Exécutez le script SQL fourni (`mediatek86_db.sql`) pour générer les tables et données.
+
+3. **Configurer la connexion**
+   - L'application utilise l'utilisateur suivant :
+     - **ID** : `Mediatek86_Admin`  
+     - **Mot de passe** : `GEd(E[*-zmK9w6W7`
+
+4. **Lancer l'application**
+   - Dans Visual Studio, exécutez le fichier `Programme.cs` pour démarrer l'application.
+
+---
+
+## 🎬 Démonstration vidéo
+
+▶️ [Voir la démonstration des fonctionnalités](https://www.canva.com/design/DAGpTKU-Bog/Hx7lkKF9WYEfJPRPjDsiXQ/watch)
+
+---
 
